@@ -49,6 +49,7 @@ body{
 		padding: 20px;
 		background: orange;
 		color: white;
+		text-decoration: none;
 	}
 	#nav ul li a:hover{
 		background-color: #ffb424;
@@ -69,17 +70,17 @@ body{
 		padding-top: 5px;
 		padding-bottom: 5px;
 	}
-	#content ul li a{
+	#content a{
 		float: right;
 		margin-left: 15px;
 		display: inline-block;
+		color: orange;
 	}
-	#content ul li a:link, a:visited{
-		color: gray;
+	#content a:link, a:visited{
 		text-align: center;
 		text-decoration: none;
 	}
-	#content ul li a:hover, a:active{
+	#content a:hover, a:active{
 		background-color: powderblue;
 	}
 
@@ -92,4 +93,8 @@ body{
 		text-transform: uppercase;
 		font-size: 80%;
 		color: grey;
+	}
+	#footer p a {
+		text-decoration: none;
+		color: orange;
 	}
