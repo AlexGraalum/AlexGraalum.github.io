@@ -7,18 +7,6 @@ h1, h2, h3, h4{
 }
 h1{ font-size: 1.7em;}
 h2{ font-size: 1.5em;}
-a{
-    color: black;
-    text-decoration: none;
-}
-    a:hover,
-    a:active{ text-decoration: bold;}
-
-head{
-	font-family: arial;
-	font-size: 100%;
-	background-color:powderblue;
-}
 
 body{
     font-family: arial;
@@ -31,12 +19,20 @@ body{
 }
 
 #page{ margin: 20px; }
+
 #logo{
     width: 35%;
     margin-top: 5px;
     font-family: georgia;
     display: inline-block;
 }
+	#logo a{
+		color: black;
+		text-decoration: none;
+	}
+	#logo a:hover, a:active{
+		text-decoration: bold;
+	}
 
 #nav{
     width: 60%;
@@ -44,21 +40,23 @@ body{
     text-align: right;
     float: right;
 }
-    #nav ul{}
-      #nav ul li{
-          display: inline-block;
-          height: 62px;
-      }
-          #nav ul li a{
-              padding: 20px;
-              background: orange;
-              color: white;
-          }
-          #nav ul li a:hover{
-              background-color: #ffb424;
-              box-shadow: 0px 1px 1px #666;
-          }
-          #nav ul li a:active{ background-color:#ff8f00;}
+	#nav ul{}
+	#nav ul li{
+		display: inline-block;
+		height: 62px;
+	}
+	#nav ul li a{
+		padding: 20px;
+		background: orange;
+		color: white;
+	}
+	#nav ul li a:hover{
+		background-color: #ffb424;
+		box-shadow: 0px 1px 1px #666;
+	}
+	#nav ul li a:active{
+		background-color:#ff8f00;
+	}
 
 #content{
     margin: 30px 0;
@@ -67,6 +65,24 @@ body{
     clear: both;
     display: inline-block;
 }
+	#content ul li{
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	#content ul li a{
+		float: right;
+		margin-left: 15px;
+		display: inline-block;
+	}
+	#content ul li a:link, a:visited{
+		color: gray;
+		text-align: center;
+		text-decoration: none;
+	}
+	#content ul li a:hover, a:active{
+		background-color: powderblue;
+	}
+
 #footer{
 	border-bottom: 1px #ccc solid;
 	margin-bottom: 10px;
@@ -77,5 +93,3 @@ body{
 		font-size: 80%;
 		color: grey;
 	}
-#content,
-ul li a{ box-shadow: 0px 1px 1px #999; }
