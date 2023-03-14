@@ -66,10 +66,6 @@ body{
     clear: both;
     display: inline-block;
 }
-	#content ul li{
-		padding-top: 5px;
-		padding-bottom: 5px;
-	}
 	#content a{
 		float: right;
 		margin-left: 15px;
@@ -81,6 +77,24 @@ body{
 		text-decoration: none;
 	}
 	#content a:hover, a:active{
+		background-color: powderblue;
+	}
+	#content ul{}
+	#content ul li{
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	#content ul li a{
+		float: right;
+		margin-left: 15px;
+		display: inline-block;
+		color: orange;
+	}
+	#content ul li a:link, a:visited{
+		text-align: center;
+		text-decoration: none;
+	}
+	#content ul li a:hover, a:active{
 		background-color: powderblue;
 	}
 
