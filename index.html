@@ -1,37 +1,42 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta name="Author" content="Jason Alex Graalum">
-		<meta name="Description" content="My Personal Website">
-		<title>Jason Alex Graalum</title>
-		<link rel="stylesheet" href="./assets/styles.css" type="text/css">
-	</head>
-	<body>
-		<div id="page">
-
-			<div id="header">
-				<div id="logo">
-					<h1><a href="./index.html" id="logo">Jason Alex Graalum</a></h1>
-				</div>
-				<div id="nav">
-					<ul>
-						<li><a href="./index.html">Home</a></li>
-						<li><a href="./contact.html">Contact</a></li>
-					</ul>
-				</div>
-			</div>
-
-			<div id="content">
-				<h2>Home Page</h2>
-				<p>I am a recent college graduate with a Bachelor's of Science in Applied Computer Science seeking career opportunities that would further improve my software development capabilities and provide me with practical industry experience.</p>
-				<p>My programming experience is focused toward C/C++ with the use of standard graphics libraries such as OpenGL and GLSL.</p>
-				<p>Download a copy of my resume <a href="./files/J_Graalum_Resume.pdf" download style="float: none; margin-left: 0px;">here</a>!</p>
-			</div>
-
-			<div id="footer">
-				<p>Webpage made by <a href="./index.html">Jason Alex Graalum</a></p>
-			</div>
-
-		</div>
-	</body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Author" content="Jason Alex Graalum">
+	<meta name="Description" content="My Personal Website">
+    <title>Jason Alex Graalum</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <header>
+		<button class="drawer-button">
+			<span class="drawer-icon"></span>
+		</button>
+        <h1>Jason Alex Graalum</h1>
+    </header>
+    <main>
+        <div class="content">
+			<h3>About Me</h3>
+            <p>Hello! My name is Alex and I am a recent college graduate from Oregon State Univeristy with a Bachelor's of Science in Applied Computer Science seeking career opportunities that would further improve my software development capabilities and provide me with practical industry experience.</p>
+			<p>My programming experience is focused toward C/C++ with the use of standard graphics libraries such as OpenGL and GLSL. Through my many years in academia I have also been exposed to Python, Rust, Assembly, LUA, web development using HTML, CSS, Javascript, Node.js, and SQL, and app development using Flutter and Dart.</p>
+			<p>My goal for a career is to be a video game software developer, creating interesting game mechanics or even building whole game engines. I have worked with game development software such as Unity and Unreal Engine 4/5, and older software such as GameMaker. Using these softwares I have made multiple projects, some of which can be found on my GitHub, and some that I have lost track of due to how long ago they were made.</p>
+			<p>Along with my desire to be a game developer, I am also an avid gamer and enjoy spending my free time playing video games. My preferred genre is city-management/base-building, although I probably spend more time playing survival RPGs and first-person shooters.</p>
+			<p>Check out my resume in the sidebar.</p>
+        </div>
+        <div class="drawer">
+			<p>Links</p>
+				<ul>
+					<li><a href="mailto:alexgraalum@yahoo.com" target="_blank">Email</a></li>
+					<li><a href="https://www.linkedin.com/in/j-alex-graalum/" target="_blank">LinkedIn</a></li>
+					<li><a href="https://github.com/AlexGraalum" target="_blank">GitHub</a></li>
+					<li><a href="./files/J_Graalum_Resume.pdf" target="_blank">Resume</a></li>
+				</ul>
+        </div>
+    </main>
+    <footer>
+        <p>J. Alex Graalum 2023</p>
+    </footer>
+    <script src="./scripts/script.js"></script>
+</body>
 </html>
